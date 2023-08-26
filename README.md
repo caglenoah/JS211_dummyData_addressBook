@@ -9,7 +9,9 @@ Create a new repo (name it descriptively well), clone it to your local machine a
 Open the directory and create an index.html and main.js file to fetch a user and display them one at at time
 
 Use the API: https://randomuser.me/api/ to fetch a user now
+
 Fetch a new user multiple times and store them in an array
+
 Then list out all the users in your address book array by name and picture
 Figure out how to fetch multiple users in one fetch request
 Fetch multiple users on window load
@@ -101,17 +103,3 @@ users.forEach(displayUser);
 };
 
 ---
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
-  <!-- <title>User Address Book</title>
-</head>
-<body>
-  <div class="user-list"></div> <!-- This is where users will be added -->
-  <!-- <script src="main.js"></script> <!-- Link to your JavaScript file -->
-<!-- </body>
-</html> -->
